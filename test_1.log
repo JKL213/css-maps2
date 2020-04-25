@@ -1,0 +1,1494 @@
+
+
+
+materialPath: E:\Steam Library\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.vmf
+Could not locate 'GameData' key in e:\steam library\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (3415 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15 texinfos to 8
+Reduced 5 texdatas to 5 (108 bytes to 108)
+Writing E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 105869, actual size 105655
+0 seconds elapsed
+
+
+
+16 threads
+reading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+reading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.prt
+   2 portalclusters
+   1 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4
+Average clusters visible: 2
+Building PAS...
+Average clusters audible: 2
+visdatasize:24  compressed from 32
+writing e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Loading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+28 faces
+24135 square feet [3475456.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+28 patches before subdivision
+3580 patches after subdivision
+1 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 399722, max 269
+transfer lists:   3.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(11001, 8501, 7237)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1671, 901, 593)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(259, 103, 56)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(40, 11, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(6, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0003 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                  8/8192           96/98304    ( 0.1%) 
+brushsides              48/65536         384/524288   ( 0.1%) 
+planes                  60/65536        1200/1310720  ( 0.1%) 
+vertexes                35/65536         420/786432   ( 0.1%) 
+nodes                   27/65536         864/2097152  ( 0.0%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   28/65536        1568/3670016  ( 0.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               18/65536        1008/3670016  ( 0.0%) 
+leaves                  31/65536         992/2097152  ( 0.0%) 
+leaffaces               28/65536          56/131072   ( 0.0%) 
+leafbrushes             12/65536          24/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              184/512000        736/2048000  ( 0.0%) 
+edges                   93/256000        372/1024000  ( 0.0%) 
+LDR worldlights          1/8192           88/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      100768/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]          24/16777216 ( 0.0%) 
+entdata               [variable]        1242/393216   ( 0.3%) 
+LDR ambient table       31/65536         124/262144   ( 0.0%) 
+HDR ambient table       31/65536         124/262144   ( 0.0%) 
+LDR leaf ambient        85/65536        2380/1835008  ( 0.1%) 
+HDR leaf ambient        31/65536         868/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105655/0        ( 0.0%) 
+physics               [variable]        3415/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 56
+Writing e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+0 seconds elapsed
+
+
+
+materialPath: E:\Steam Library\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.vmf
+Could not locate 'GameData' key in e:\steam library\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6439 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15 texinfos to 10
+Reduced 5 texdatas to 5 (108 bytes to 108)
+Writing E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 105869, actual size 105655
+0 seconds elapsed
+
+
+
+16 threads
+reading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+reading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.prt
+  11 portalclusters
+  11 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 111
+Average clusters visible: 10
+Building PAS...
+Average clusters audible: 11
+visdatasize:136  compressed from 176
+writing e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Loading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+80 faces
+28515 square feet [4106240.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+80 patches before subdivision
+4520 patches after subdivision
+1 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 414441, max 238
+transfer lists:   3.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(5570, 4186, 3408)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(965, 505, 305)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(163, 62, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(27, 7, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(5, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0005 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 16/8192          192/98304    ( 0.2%) 
+brushsides              96/65536         768/524288   ( 0.1%) 
+planes                  78/65536        1560/1310720  ( 0.1%) 
+vertexes               106/65536        1272/786432   ( 0.2%) 
+nodes                   49/65536        1568/2097152  ( 0.1%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   80/65536        4480/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               44/65536        2464/3670016  ( 0.1%) 
+leaves                  53/65536        1696/2097152  ( 0.1%) 
+leaffaces               83/65536         166/131072   ( 0.1%) 
+leafbrushes             25/65536          50/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              538/512000       2152/2048000  ( 0.1%) 
+edges                  302/256000       1208/1024000  ( 0.1%) 
+LDR worldlights          1/8192           88/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              3/32768          30/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            36/65536          72/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      112180/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         136/16777216 ( 0.0%) 
+entdata               [variable]        1242/393216   ( 0.3%) 
+LDR ambient table       53/65536         212/262144   ( 0.1%) 
+HDR ambient table       53/65536         212/262144   ( 0.1%) 
+LDR leaf ambient       130/65536        3640/1835008  ( 0.2%) 
+HDR leaf ambient        53/65536        1484/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105655/0        ( 0.0%) 
+physics               [variable]        6439/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 202
+Writing e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+0 seconds elapsed
+
+
+
+materialPath: E:\Steam Library\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.vmf
+Could not locate 'GameData' key in e:\steam library\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6439 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15 texinfos to 10
+Reduced 5 texdatas to 5 (108 bytes to 108)
+Writing E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 105869, actual size 105655
+0 seconds elapsed
+
+
+
+16 threads
+reading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+reading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.prt
+  11 portalclusters
+  11 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 111
+Average clusters visible: 10
+Building PAS...
+Average clusters audible: 11
+visdatasize:136  compressed from 176
+writing e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Loading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+80 faces
+28515 square feet [4106240.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+80 patches before subdivision
+4520 patches after subdivision
+1 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 414441, max 238
+transfer lists:   3.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(5570, 4186, 3408)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(965, 505, 305)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(163, 62, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(27, 7, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(5, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0004 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 16/8192          192/98304    ( 0.2%) 
+brushsides              96/65536         768/524288   ( 0.1%) 
+planes                  78/65536        1560/1310720  ( 0.1%) 
+vertexes               106/65536        1272/786432   ( 0.2%) 
+nodes                   49/65536        1568/2097152  ( 0.1%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   80/65536        4480/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               44/65536        2464/3670016  ( 0.1%) 
+leaves                  53/65536        1696/2097152  ( 0.1%) 
+leaffaces               83/65536         166/131072   ( 0.1%) 
+leafbrushes             25/65536          50/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              538/512000       2152/2048000  ( 0.1%) 
+edges                  302/256000       1208/1024000  ( 0.1%) 
+LDR worldlights          1/8192           88/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              3/32768          30/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            36/65536          72/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      112180/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         136/16777216 ( 0.0%) 
+entdata               [variable]        1242/393216   ( 0.3%) 
+LDR ambient table       53/65536         212/262144   ( 0.1%) 
+HDR ambient table       53/65536         212/262144   ( 0.1%) 
+LDR leaf ambient       130/65536        3640/1835008  ( 0.2%) 
+HDR leaf ambient        53/65536        1484/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105655/0        ( 0.0%) 
+physics               [variable]        6439/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 202
+Writing e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+0 seconds elapsed
+
+
+
+materialPath: E:\Steam Library\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in e:\steam library\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_dust*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_dust*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (10501 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 19 texinfos to 11
+Reduced 6 texdatas to 6 (120 bytes to 120)
+Writing E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 86948, actual size 86734
+0 seconds elapsed
+
+
+
+16 threads
+reading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+reading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.prt
+  11 portalclusters
+  11 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 111
+Average clusters visible: 10
+Building PAS...
+Average clusters audible: 11
+visdatasize:136  compressed from 176
+writing e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Loading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+80 faces
+28515 square feet [4106240.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+80 patches before subdivision
+4520 patches after subdivision
+1 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 414440, max 238
+transfer lists:   3.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(5569, 4189, 3413)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(964, 506, 305)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(163, 62, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(27, 7, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(5, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0004 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 28/8192          336/98304    ( 0.3%) 
+brushsides             168/65536        1344/524288   ( 0.3%) 
+planes                 100/65536        2000/1310720  ( 0.2%) 
+vertexes               106/65536        1272/786432   ( 0.2%) 
+nodes                   50/65536        1600/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   80/65536        4480/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               50/65536        2800/3670016  ( 0.1%) 
+leaves                  54/65536        1728/2097152  ( 0.1%) 
+leaffaces               83/65536         166/131072   ( 0.1%) 
+leafbrushes             54/65536         108/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              562/512000       2248/2048000  ( 0.1%) 
+edges                  326/256000       1304/1024000  ( 0.1%) 
+LDR worldlights          1/8192           88/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              3/32768          30/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            36/65536          72/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      112180/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         136/16777216 ( 0.0%) 
+entdata               [variable]        1238/393216   ( 0.3%) 
+LDR ambient table       54/65536         216/262144   ( 0.1%) 
+HDR ambient table       54/65536         216/262144   ( 0.1%) 
+LDR leaf ambient       159/65536        4452/1835008  ( 0.2%) 
+HDR leaf ambient        54/65536        1512/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86734/0        ( 0.0%) 
+physics               [variable]       10501/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 202
+Writing e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+0 seconds elapsed
+
+
+
+materialPath: E:\Steam Library\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.vmf
+Could not locate 'GameData' key in e:\steam library\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_counterterrorist (-760.00 328.00 72.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_dust*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_dust*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8180 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 19 texinfos to 16
+Reduced 6 texdatas to 6 (126 bytes to 126)
+Writing E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 86948, actual size 86734
+0 seconds elapsed
+
+
+
+16 threads
+reading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+reading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.prt
+LoadPortals: couldn't read e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Loading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+No vis information, direct lighting only.
+151 faces
+71182 square feet [10250240.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0007 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 21/8192          252/98304    ( 0.3%) 
+brushsides             126/65536        1008/524288   ( 0.2%) 
+planes                  82/65536        1640/1310720  ( 0.1%) 
+vertexes               166/65536        1992/786432   ( 0.3%) 
+nodes                   91/65536        2912/2097152  ( 0.1%) 
+texinfos                16/12288        1152/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  151/65536        8456/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               95/65536        5320/3670016  ( 0.1%) 
+leaves                  95/65536        3040/2097152  ( 0.1%) 
+leaffaces              158/65536         316/131072   ( 0.2%) 
+leafbrushes             27/65536          54/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1056/512000       4224/2048000  ( 0.2%) 
+edges                  563/256000       2252/1024000  ( 0.2%) 
+LDR worldlights          1/8192           88/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              8/32768          80/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            99/65536         198/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      262412/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        1241/393216   ( 0.3%) 
+LDR ambient table       95/65536         380/262144   ( 0.1%) 
+HDR ambient table       95/65536         380/262144   ( 0.1%) 
+LDR leaf ambient       175/65536        4900/1835008  ( 0.3%) 
+HDR leaf ambient        95/65536        2660/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86734/0        ( 0.0%) 
+physics               [variable]        8180/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 374
+Writing e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+0 seconds elapsed
+
+
+
+materialPath: E:\Steam Library\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.vmf
+Could not locate 'GameData' key in e:\steam library\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_counterterrorist (-760.00 328.00 72.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_dust*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_dust*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8180 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 19 texinfos to 16
+Reduced 6 texdatas to 6 (126 bytes to 126)
+Writing E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 86948, actual size 86734
+0 seconds elapsed
+
+
+
+16 threads
+reading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+reading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.prt
+LoadPortals: couldn't read e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Loading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+No vis information, direct lighting only.
+151 faces
+71182 square feet [10250240.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0007 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 21/8192          252/98304    ( 0.3%) 
+brushsides             126/65536        1008/524288   ( 0.2%) 
+planes                  82/65536        1640/1310720  ( 0.1%) 
+vertexes               166/65536        1992/786432   ( 0.3%) 
+nodes                   91/65536        2912/2097152  ( 0.1%) 
+texinfos                16/12288        1152/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  151/65536        8456/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               95/65536        5320/3670016  ( 0.1%) 
+leaves                  95/65536        3040/2097152  ( 0.1%) 
+leaffaces              158/65536         316/131072   ( 0.2%) 
+leafbrushes             27/65536          54/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1056/512000       4224/2048000  ( 0.2%) 
+edges                  563/256000       2252/1024000  ( 0.2%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              8/32768          80/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            99/65536         198/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      262412/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        1486/393216   ( 0.4%) 
+LDR ambient table       95/65536         380/262144   ( 0.1%) 
+HDR ambient table       95/65536         380/262144   ( 0.1%) 
+LDR leaf ambient       628/65536       17584/1835008  ( 1.0%) 
+HDR leaf ambient        95/65536        2660/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86734/0        ( 0.0%) 
+physics               [variable]        8180/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 374
+Writing e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+0 seconds elapsed
+
+
+
+materialPath: E:\Steam Library\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.vmf
+Could not locate 'GameData' key in e:\steam library\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (-192.00 0.00 512.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_dust*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_dust*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8180 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 19 texinfos to 16
+Reduced 6 texdatas to 6 (126 bytes to 126)
+Writing E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 86948, actual size 86734
+0 seconds elapsed
+
+
+
+16 threads
+reading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+reading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.prt
+LoadPortals: couldn't read e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Loading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+No vis information, direct lighting only.
+151 faces
+71182 square feet [10250240.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0007 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 21/8192          252/98304    ( 0.3%) 
+brushsides             126/65536        1008/524288   ( 0.2%) 
+planes                  82/65536        1640/1310720  ( 0.1%) 
+vertexes               166/65536        1992/786432   ( 0.3%) 
+nodes                   91/65536        2912/2097152  ( 0.1%) 
+texinfos                16/12288        1152/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  151/65536        8456/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               95/65536        5320/3670016  ( 0.1%) 
+leaves                  95/65536        3040/2097152  ( 0.1%) 
+leaffaces              158/65536         316/131072   ( 0.2%) 
+leafbrushes             27/65536          54/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1056/512000       4224/2048000  ( 0.2%) 
+edges                  563/256000       2252/1024000  ( 0.2%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              8/32768          80/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            99/65536         198/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      262412/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        1730/393216   ( 0.4%) 
+LDR ambient table       95/65536         380/262144   ( 0.1%) 
+HDR ambient table       95/65536         380/262144   ( 0.1%) 
+LDR leaf ambient       628/65536       17584/1835008  ( 1.0%) 
+HDR leaf ambient        95/65536        2660/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86734/0        ( 0.0%) 
+physics               [variable]        8180/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 374
+Writing e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+0 seconds elapsed
+
+
+
+materialPath: E:\Steam Library\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.vmf
+Could not locate 'GameData' key in e:\steam library\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (-192.00 0.00 512.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_dust*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_dust*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8180 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 19 texinfos to 16
+Reduced 6 texdatas to 6 (126 bytes to 126)
+Writing E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 86948, actual size 86734
+0 seconds elapsed
+
+
+
+16 threads
+reading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+reading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.prt
+LoadPortals: couldn't read e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Loading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+No vis information, direct lighting only.
+151 faces
+71182 square feet [10250240.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0007 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 21/8192          252/98304    ( 0.3%) 
+brushsides             126/65536        1008/524288   ( 0.2%) 
+planes                  82/65536        1640/1310720  ( 0.1%) 
+vertexes               166/65536        1992/786432   ( 0.3%) 
+nodes                   91/65536        2912/2097152  ( 0.1%) 
+texinfos                16/12288        1152/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  151/65536        8456/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               95/65536        5320/3670016  ( 0.1%) 
+leaves                  95/65536        3040/2097152  ( 0.1%) 
+leaffaces              158/65536         316/131072   ( 0.2%) 
+leafbrushes             27/65536          54/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1056/512000       4224/2048000  ( 0.2%) 
+edges                  563/256000       2252/1024000  ( 0.2%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              8/32768          80/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            99/65536         198/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      262412/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        1731/393216   ( 0.4%) 
+LDR ambient table       95/65536         380/262144   ( 0.1%) 
+HDR ambient table       95/65536         380/262144   ( 0.1%) 
+LDR leaf ambient       628/65536       17584/1835008  ( 1.0%) 
+HDR leaf ambient        95/65536        2660/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86734/0        ( 0.0%) 
+physics               [variable]        8180/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 374
+Writing e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+0 seconds elapsed
+
+
+
+materialPath: E:\Steam Library\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.vmf
+Could not locate 'GameData' key in e:\steam library\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (-192.00 0.00 512.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_dust*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_dust*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8180 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 19 texinfos to 16
+Reduced 6 texdatas to 6 (126 bytes to 126)
+Writing E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 86948, actual size 86734
+0 seconds elapsed
+
+
+
+16 threads
+reading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+reading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.prt
+LoadPortals: couldn't read e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Loading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+No vis information, direct lighting only.
+151 faces
+71182 square feet [10250240.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0007 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 21/8192          252/98304    ( 0.3%) 
+brushsides             126/65536        1008/524288   ( 0.2%) 
+planes                  82/65536        1640/1310720  ( 0.1%) 
+vertexes               166/65536        1992/786432   ( 0.3%) 
+nodes                   91/65536        2912/2097152  ( 0.1%) 
+texinfos                16/12288        1152/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  151/65536        8456/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               95/65536        5320/3670016  ( 0.1%) 
+leaves                  95/65536        3040/2097152  ( 0.1%) 
+leaffaces              158/65536         316/131072   ( 0.2%) 
+leafbrushes             27/65536          54/131072   ( 0.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1056/512000       4224/2048000  ( 0.2%) 
+edges                  563/256000       2252/1024000  ( 0.2%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              8/32768          80/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            99/65536         198/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      262412/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        1731/393216   ( 0.4%) 
+LDR ambient table       95/65536         380/262144   ( 0.1%) 
+HDR ambient table       95/65536         380/262144   ( 0.1%) 
+LDR leaf ambient       628/65536       17584/1835008  ( 1.0%) 
+HDR leaf ambient        95/65536        2660/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86734/0        ( 0.0%) 
+physics               [variable]        8180/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 374
+Writing e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+0 seconds elapsed
+
+
+
+materialPath: E:\Steam Library\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.vmf
+Could not locate 'GameData' key in e:\steam library\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_dust*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_dust*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (9916 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 19 texinfos to 16
+Reduced 6 texdatas to 6 (126 bytes to 126)
+Writing E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 86948, actual size 86734
+0 seconds elapsed
+
+
+
+16 threads
+reading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+reading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.prt
+  39 portalclusters
+  84 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 997
+Average clusters visible: 25
+Building PAS...
+Average clusters audible: 37
+visdatasize:712  compressed from 624
+writing e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Loading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+162 faces
+103552 square feet [14911488.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+162 patches before subdivision
+9780 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 390677, max 237
+transfer lists:   3.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(13423, 10352, 8646)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1538, 787, 489)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(196, 75, 37)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(31, 8, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(5, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0009 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 26/8192          312/98304    ( 0.3%) 
+brushsides             156/65536        1248/524288   ( 0.2%) 
+planes                 104/65536        2080/1310720  ( 0.2%) 
+vertexes               196/65536        2352/786432   ( 0.3%) 
+nodes                  109/65536        3488/2097152  ( 0.2%) 
+texinfos                16/12288        1152/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  162/65536        9072/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               91/65536        5096/3670016  ( 0.1%) 
+leaves                 113/65536        3616/2097152  ( 0.2%) 
+leaffaces              189/65536         378/131072   ( 0.3%) 
+leafbrushes             53/65536         106/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1100/512000       4400/2048000  ( 0.2%) 
+edges                  599/256000       2396/1024000  ( 0.2%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              6/32768          60/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            93/65536         186/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      261100/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         712/16777216 ( 0.0%) 
+entdata               [variable]        1731/393216   ( 0.4%) 
+LDR ambient table      113/65536         452/262144   ( 0.2%) 
+HDR ambient table      113/65536         452/262144   ( 0.2%) 
+LDR leaf ambient       567/65536       15876/1835008  ( 0.9%) 
+HDR leaf ambient       113/65536        3164/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86734/0        ( 0.0%) 
+physics               [variable]        9916/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 412
+Writing e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+0 seconds elapsed
+
+
+
+materialPath: E:\Steam Library\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.vmf
+Could not locate 'GameData' key in e:\steam library\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_dust*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_dust*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (11923 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 28 texinfos to 22
+Reduced 11 texdatas to 10 (249 bytes to 206)
+Writing E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 87378, actual size 87030
+0 seconds elapsed
+
+
+
+16 threads
+reading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+reading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.prt
+  57 portalclusters
+ 132 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 7 visible clusters (0.36%)
+Total clusters visible: 1944
+Average clusters visible: 34
+Building PAS...
+Average clusters audible: 56
+visdatasize:1405  compressed from 912
+writing e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Loading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+227 faces
+104500 square feet [15048128.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+227 patches before subdivision
+9561 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 388728, max 245
+transfer lists:   3.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(12837, 9923, 8284)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1453, 745, 463)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(183, 70, 35)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(29, 8, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(5, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0009 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 31/8192          372/98304    ( 0.4%) 
+brushsides             186/65536        1488/524288   ( 0.3%) 
+planes                 118/65536        2360/1310720  ( 0.2%) 
+vertexes               271/65536        3252/786432   ( 0.4%) 
+nodes                  144/65536        4608/2097152  ( 0.2%) 
+texinfos                22/12288        1584/884736   ( 0.2%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  227/65536       12712/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              108/65536        6048/3670016  ( 0.2%) 
+leaves                 148/65536        4736/2097152  ( 0.2%) 
+leaffaces              263/65536         526/131072   ( 0.4%) 
+leafbrushes             73/65536         146/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1466/512000       5864/2048000  ( 0.3%) 
+edges                  801/256000       3204/1024000  ( 0.3%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips              7/32768          70/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           120/65536         240/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      263832/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1405/16777216 ( 0.0%) 
+entdata               [variable]        1636/393216   ( 0.4%) 
+LDR ambient table      148/65536         592/262144   ( 0.2%) 
+HDR ambient table      148/65536         592/262144   ( 0.2%) 
+LDR leaf ambient       781/65536       21868/1835008  ( 1.2%) 
+HDR leaf ambient       148/65536        4144/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       87030/0        ( 0.0%) 
+physics               [variable]       11923/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 580
+Writing e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+0 seconds elapsed
+
+
+
+materialPath: E:\Steam Library\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.vmf
+Could not locate 'GameData' key in e:\steam library\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_dust*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_dust*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (11923 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 28 texinfos to 16
+Reduced 11 texdatas to 10 (249 bytes to 206)
+Writing E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\Steam Library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 87378, actual size 87030
+0 seconds elapsed
+
+
+
+16 threads
+reading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+reading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.prt
+  25 portalclusters
+  43 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 559
+Average clusters visible: 22
+Building PAS...
+Average clusters audible: 25
+visdatasize:406  compressed from 400
+writing e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Loading e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+129 faces
+29464 square feet [4242880.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+129 patches before subdivision
+4361 patches after subdivision
+7 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 403835, max 246
+transfer lists:   3.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(43528, 31013, 24427)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(7544, 3813, 2293)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1298, 467, 218)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(224, 57, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(39, 7, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(7, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0004 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 31/8192          372/98304    ( 0.4%) 
+brushsides             186/65536        1488/524288   ( 0.3%) 
+planes                 118/65536        2360/1310720  ( 0.2%) 
+vertexes               163/65536        1956/786432   ( 0.2%) 
+nodes                   76/65536        2432/2097152  ( 0.1%) 
+texinfos                16/12288        1152/884736   ( 0.1%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  129/65536        7224/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               61/65536        3416/3670016  ( 0.1%) 
+leaves                  80/65536        2560/2097152  ( 0.1%) 
+leaffaces              147/65536         294/131072   ( 0.2%) 
+leafbrushes             69/65536         138/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              822/512000       3288/2048000  ( 0.2%) 
+edges                  472/256000       1888/1024000  ( 0.2%) 
+LDR worldlights          7/8192          616/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips              6/32768          60/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            90/65536         180/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      116240/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         406/16777216 ( 0.0%) 
+entdata               [variable]        2034/393216   ( 0.5%) 
+LDR ambient table       80/65536         320/262144   ( 0.1%) 
+HDR ambient table       80/65536         320/262144   ( 0.1%) 
+LDR leaf ambient       475/65536       13300/1835008  ( 0.7%) 
+HDR leaf ambient        80/65536        2240/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       87030/0        ( 0.0%) 
+physics               [variable]       11923/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 320
+Writing e:\steam library\steamapps\common\sourcesdk_content\cstrike\mapsrc\test_1.bsp
+0 seconds elapsed
